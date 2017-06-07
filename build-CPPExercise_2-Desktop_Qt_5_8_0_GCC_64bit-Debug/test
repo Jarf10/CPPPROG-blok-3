@@ -1,0 +1,7 @@
+The booleans on the sum: (a && b) || !c 
+ are:
+a b c || answer		a	b	c	||answer
+1 0 1 || 0		true	false	true	||false
+1 1 1 || 1		true	true	true	||true
+0 0 1 || 0		false	false	true	||false
+0 1 0 || 1		false	true	false	||true
